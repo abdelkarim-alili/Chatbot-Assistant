@@ -63,7 +63,7 @@ This project uses Mistral:latest by default:
 ```
 ollama pull mistral:latest
 ```
-You can also pull and run any model supported by **[Ollama]([https://ollama.com/](https://ollama.com/search))**
+You can also pull and run any model supported by **[Ollama](https://ollama.com/search)**
 
 Then update the model name in backend/app.py.
 ```
