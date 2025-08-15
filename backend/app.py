@@ -35,7 +35,7 @@ def chat():
 
     # Prepare the data payload for the POST request to Ollama
     data = {
-        "model": "mistral:latest",  # Use the 'mistral:latest' model
+        "model": "Your Model Here",  # Use the download model
         "prompt": full_prompt,  # Prompt sent to the model
         "stream": True,  # Enable streaming response
         "options": {
