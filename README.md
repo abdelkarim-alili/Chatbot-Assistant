@@ -20,10 +20,9 @@ This project lets you run an AI chatbot **locally** — no API keys, no external
 
 Make sure you have the following installed:
 
-- [Python 3.9+](https://www.python.org/downloads/)
-- [Node.js 18+](https://nodejs.org/en/download/)
+- [Python 3.13+](https://www.python.org/downloads/)
+- [Node.js 22.18+](https://nodejs.org/en/download/)
 - [Ollama](https://ollama.com/download)
-- [Git](https://git-scm.com/downloads)
 
 ---
 
@@ -64,11 +63,8 @@ This project uses Mistral:latest by default:
 ```
 ollama pull mistral:latest
 ```
-You can also pull and run any model supported by Ollama, for example:
-```
-ollama pull llama2
-ollama pull gemma
-```
+You can also pull and run any model supported by **[Ollama]([https://ollama.com/](https://ollama.com/search))**
+
 Then update the model name in backend/app.py.
 ```
 "model": "Your Model Here",  # Use the download model
