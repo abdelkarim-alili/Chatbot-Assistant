@@ -56,7 +56,7 @@ npm run dev
 ## 🤖 Setting up Ollama
 Install Ollama
 
-Download from Ollama's official website and follow the installation instructions.
+Download from **[Ollama](https://ollama.com/)**'s official website and follow the installation instructions.
 
 Pull a model
 
