@@ -69,6 +69,12 @@ Then update the model name in backend/app.py.
 ```
 "model": "Your Model Here",  # Use the download model
 ```
+## Start the Ollama server
+Before running the backend, make sure Ollama is running:
+```
+ollama start
+```
+
 ## Start the Backend
 ```
 cd backend
